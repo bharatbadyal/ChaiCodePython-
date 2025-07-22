@@ -10,3 +10,8 @@ print(chai_recepie)
 del chai_recepie["Liquid"]
 
 print(chai_recepie)
+
+print("sugar" in chai_order) 
+print(chai_order.keys())
+print(chai_order.values())
+print(chai_order.items())
